@@ -1,0 +1,65 @@
+
+/*Footer-style*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+  
+footer > a > img {
+    width: 3em;
+    padding: 1rem;
+}
+  
+footer > a > img:hover {
+    transform: scale(1.25);
+}
+
+/*heading-style*/
+
+#headingMain {
+    display: flex;
+    justify-content: center;
+}
+
+#headingMain > img {
+    padding: 20px;
+    margin: 20px;
+}
+
+#headingInformation {
+    margin: 20px;
+    padding: 20px;
+}
+
+/*navigation-style*/
+
+#navigationButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#navigationButtons > button {
+    display: inline-block;
+    margin: 20px;
+    background:none;
+    border:none;
+}
+
+#navigationButtons > button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+/*About-style*/
+
+#aboutDescription {
+    text-align: center;
+    display: inline-grid;
+    justify-items: center;
+}
+
+#aboutDescription > p {
+    max-width: 50%;
+    margin-top: 20px;
+}
+  
